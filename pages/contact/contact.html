@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact-me-page</title>
+</head>
+<body>
+    <h1>My Contact Detail</h1>
+    <address>
+        <a href="mailto:thankGodobiekwe@gmail.com">ThankGodO</a>.<br> 
+        Ota, Ogun State<br>
+        Nigeria
+    </address>
+   
+     <hr>
+    <form action="mailto: thankgodobiekwe@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your Name:</label> 
+        <input type="text" name="name"><br><br>
+        <label for="email">Your Email:</label> 
+        <input type="email" name="email"><br><br>
+        <label for="phone">Your Phone Number:</label>
+        <input type="number" name="phone"><br><br>
+        
+        <hr>
+        <p><b>Gender</b></p>
+        <input type="radio" id="Male" name="gender" value="Male">
+        <label for="gender1">Male</label><br>
+        <input type="radio" id="Female" name="gender" value="Female">
+        <label for="gender2">Female</label><br>  
+        <input type="radio" id="not say" name="gender" value="not say">
+        <label for="gender3">Not sharing</label><br><br>
+        
+        <hr>
+        <p><b>Do you want to signup for email list?</b></p>
+        <input type="radio" id="yes" name="signup" value="yes">
+        <label for="signup1">Yes</label><br>
+        <input type="radio" id="no" name="signup" value="no">
+        <label for="signup2">No</label><br>  
+
+        <hr>
+        <p><b>Favourite Car</b></p>
+        <label for="favourite">Select Favourite Car:</label>
+            <select id="favourite" name="favourite">
+                <option value="honda">Honda Accord</option>
+                <option value="toyota">Toyota</option>
+                <option value="lexus">Lexus</option><br><br>
+            </select><br><br>
+    
+        <hr>
+        <p><b>Leave a message.</b></p>
+        <textarea name="message" id="" cols="30" rows="10">Please leave a message</textarea><br><br>
+        <input type="submit">    
+    </form><br>
+
+    <a href="../../index.html">Go back to home</a>
+</body>
+</html>
